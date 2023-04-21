@@ -1,0 +1,27 @@
+---
+title: "Рейтинг языков программированя Tiobe"
+date: "2023-04-19T13:08:13-06:00"
+---
+_Индекс TIOBE_ — индекс, оценивающий популярность языков программирования
+на основе подсчёта результатов поисковых запросов, содержащих название языка.
+
+20 самых популярных языков программирования по рейтингу Tiobe:
+```{r tiobe, echo = FALSE,warning=FALSE}
+suppressPackageStartupMessages(library("lubridate"))
+library("stringr")
+library("rvest")
+tbody <- read_html("http://tiobe.com/tiobe-index") %>%
+         html_node("tbody") %>% html_text2() %>%
+         str_split('\n') %>% unlist() %>% str_split('\t')
+months <- c("январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь")
+names <- vector()
+percent <- vector()
+for(i in tbody) {
+  names <- c(names, i[5])
+  percent <- c(percent, i[6])
+}
+date <- today() - 7
+tiobe <- data.frame("Язык программирования" = names, percent)
+colnames(tiobe)[2] <- paste("Рейтинг на",months[month(date)], year(date))
+print(tiobe)
+```

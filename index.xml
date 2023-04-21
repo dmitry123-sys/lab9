@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сайт о языках программирования</title>
+    <link>/</link>
+    <description>Recent content on Сайт о языках программирования</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2023 13:09:13 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Языки программирования высокого уровня</title>
+      <link>/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%B3%D0%BE-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F/</link>
+      <pubDate>Tue, 18 Apr 2023 13:09:13 -0600</pubDate>
+      
+      <guid>/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%B3%D0%BE-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F/</guid>
+      <description>Языки программирования высокого уровня – это языки программирования, предназначенные для облегчения написания программ для компьютера без сильной привязки к его арихтектуре. Языкам высокого уровня характерна абстракция - представление блоков машинных команд, как команд понятных человеку.
+Процесс перевода кода с языка выского уровня на язык машинных команд называется трансляцией.</description>
+    </item>
+    
+    <item>
+      <title>Языки программирования низкого уровня</title>
+      <link>/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B8%D0%B7%D0%BA%D0%BE%D0%B3%D0%BE-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F/</link>
+      <pubDate>Tue, 18 Apr 2023 13:09:13 -0600</pubDate>
+      
+      <guid>/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B8%D0%B7%D0%BA%D0%BE%D0%B3%D0%BE-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F/</guid>
+      <description>Языки программирования низкого уровня – это языки программирования, близкие к машинным кодам процессора. Для обозначения машинных команд применяется мнемоника. Для этого используются специальные сокращения слов анлийского языка.
+К низкоуровневым языкам программирования относятся языки Ассемблера и байт-кодов.</description>
+    </item>
+    
+    <item>
+      <title>О сайте</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Автор: Золотарёв Дмитрий Андреевич.
+Описание: этот сайт был сделан при помощи пакета BlogDown для языка программирования R.</description>
+    </item>
+    
+  </channel>
+</rss>
